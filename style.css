@@ -4,8 +4,8 @@
    box-sizing: border-box;
 }
 
-ul, li {
-   list-style: none;
+html {
+   height: -webkit-fill-available;
 }
 
 body {
@@ -16,7 +16,13 @@ body {
    align-items: center;
    justify-content: center;
    height: 100vh;
+   height: -webkit-fill-available;
    margin: 0;
+}
+
+ul,
+li {
+   list-style: none;
 }
 
 nav {
